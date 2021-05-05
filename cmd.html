@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" type="text/css" href="src/css/about.css">
         <link rel="stylesheet" type="text/css" href="src/css/main.css">
     </head>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<nav id="navbar" class="">
+  <div class="nav-wrapper">
+    <div class="logo">
+       <h1 onclick="location.href='index.html'">Alerts Manager&trade;</h1>
+    </div>
 
-<body>
-<div class="card-block preview">
-    <div class="wrapper">
-      <div class="side-colored" style="background-color: rgb(255, 0, 0);"></div>
-      <div class="card embed">
-        <div class="card-block">
-          <div class="embed-inner"><div class="embed-title"><a href="https://discord.gg/YvTUV4tVaU">Alert Manager</a></div><div class="fields">
-    <div class="field inline">
-      <div class="field-name">Commands</div>
-      <div class="field-value"><p>am!play [url/title] <br>Play a song  <br>am!playlist [url] <br>Play a playlist  <br>am!pause Pause a song  <br>am!resume <br>Resume a song  <br>am!skip Skip a song  <br>am!live <br>View what's currently playing  <br>am!loop <br>(Un)loop a song  <br>am!shuffle <br>Shuffle the queue  <br>am!queue <br>View the queue  <br>am!clearqueue <br>Delete the queue  <br>am!disconnect <br>Disconnect the bot</p></div>
-    </div>
-  </div></div>
-        <img class="embed-thumb" src="https://i.vgy.me/Etwwfv.png" style="height: 800px;"></div>
-      <div class="embed-footer"><span>Support server: https://discord.gg/YvTUV4tVaU</span></div></div>
-    </div>
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="staff.html">Staff</a></li>
+      <li><a href="cmd.html">Commands</a></li>
+      <li><a href="rules.html">Rules</a></li></a></li>
+      <li><a href="https://www.patreon.com/alertsmanager" target="_blank">Donate</a></li>
+    </ul>
   </div>
-</body>
+</nav>
+
+<h1 class="cmdsh"><strong>Commands</strong></h1>
+<p class="cmdp"><br />am!play [url/title] <br />Play a song  <br />am!playlist [url] <br />Play a playlist  <br />am!pause <br />Pause a song  <br />am!resume <br />Resume a song  <br />am!skip Skip a song  <br />am!live <br />View what's currently playing  <br />am!loop <br />(Un)loop a song  <br />am!shuffle <br />Shuffle the queue  <br />am!queue <br />View the queue  <br />am!clearqueue <br />Delete the queue  <br />am!disconnect Disconnect the bot</p>
+
+<div class="menuIcon">
+  <span class="icon icon-bars"></span>
+  <span class="icon icon-bars overlay"></span>
+</div>
+
+<script src="src/js/main.js"></script>
 </html>
