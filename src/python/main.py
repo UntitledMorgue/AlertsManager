@@ -1,0 +1,5 @@
+embed=discord.Embed(title="Alert Manager", url="https://discord.gg/YvTUV4tVaU", color=0xff0000)
+embed.set_thumbnail(url="https://i.vgy.me/Etwwfv.png")
+embed.add_field(name="Commands", value="am!play [url/title] <br />Play a song  <br />am!playlist [url] <br />Play a playlist  <br />am!pause Pause a song  <br />am!resume <br />Resume a song  <br />am!skip Skip a song  <br />am!live <br />View what's currently playing  <br />am!loop <br />(Un)loop a song  <br />am!shuffle <br />Shuffle the queue  <br />am!queue <br />View the queue  <br />am!clearqueue <br />Delete the queue  <br />am!disconnect <br />Disconnect the bot", inline=True)
+embed.set_footer(text="Support server: https://discord.gg/YvTUV4tVaU")
+await ctx.send(embed=embed)
